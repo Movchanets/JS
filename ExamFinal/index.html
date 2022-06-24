@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+  
+</head>
+<body>
+    <div class=" d-lg-flex blue_bg ">
+        
+            <div class="left  Border p-3 col-6 bg-light ">
+              <div class="d-flex">
+                  <input id="searchTxt" type="text" maxlength="512" id="searchTxt" class="searchField"/>
+              <button class="btn btn-primary Search">Search</button>
+                </div>
+                <div class="forTable"></div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="20">20 </option>
+              </select>
+           <div class="d-flex">
+            <button class="btn btn-primary col-6 prev"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+              </svg>Previous</button>
+            
+            <button class="btn btn-primary col-6 next"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg>Next</button>
+           </div>   
+        </div>
+            <div class="right text-center Character Border p-3 col-6 bg-light "></div>
+        </div>
+     
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
